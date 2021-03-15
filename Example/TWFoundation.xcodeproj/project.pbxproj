@@ -24,6 +24,29 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B958159AB95A50570DFE8F87 /* Pods_TWFoundation_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F1BFCB02B1D59342798FF9 /* Pods_TWFoundation_Example.framework */; };
+		D1704F4525FEF8C4007E70BD /* NSMutableArray+twChain.m in Sources */ = {isa = PBXBuildFile; fileRef = D1704F2925FEF8C4007E70BD /* NSMutableArray+twChain.m */; };
+		D1704F4625FEF8C4007E70BD /* NSMutableArray+twSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = D1704F2A25FEF8C4007E70BD /* NSMutableArray+twSwizzling.m */; };
+		D1704F4725FEF8C4007E70BD /* NSArray+twSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = D1704F2C25FEF8C4007E70BD /* NSArray+twSwizzling.m */; };
+		D1704F4825FEF8C4007E70BD /* NSArray+twJsonDic.m in Sources */ = {isa = PBXBuildFile; fileRef = D1704F2F25FEF8C4007E70BD /* NSArray+twJsonDic.m */; };
+		D1704FE525FEFC2E007E70BD /* NSString+twSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = D1704FAB25FEFC2E007E70BD /* NSString+twSwizzling.m */; };
+		D1704FE625FEFC2E007E70BD /* NSString+twSize.m in Sources */ = {isa = PBXBuildFile; fileRef = D1704FAC25FEFC2E007E70BD /* NSString+twSize.m */; };
+		D1704FE725FEFC2E007E70BD /* NSString+twIDCard.m in Sources */ = {isa = PBXBuildFile; fileRef = D1704FAD25FEFC2E007E70BD /* NSString+twIDCard.m */; };
+		D1704FE825FEFC2E007E70BD /* NSString+twAtt.m in Sources */ = {isa = PBXBuildFile; fileRef = D1704FB025FEFC2E007E70BD /* NSString+twAtt.m */; };
+		D1704FE925FEFC2E007E70BD /* NSString+twMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = D1704FB125FEFC2E007E70BD /* NSString+twMD5.m */; };
+		D1704FEA25FEFC2E007E70BD /* NSString+twTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D1704FB425FEFC2E007E70BD /* NSString+twTool.m */; };
+		D1704FEB25FEFC2E007E70BD /* NSString+twEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = D1704FB525FEFC2E007E70BD /* NSString+twEmail.m */; };
+		D1704FF025FEFC2E007E70BD /* NSData+twDic.m in Sources */ = {isa = PBXBuildFile; fileRef = D1704FC825FEFC2E007E70BD /* NSData+twDic.m */; };
+		D1704FF125FEFC2E007E70BD /* NSFileManager+twTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D1704FCB25FEFC2E007E70BD /* NSFileManager+twTool.m */; };
+		D1704FF225FEFC2E007E70BD /* NSDate+twTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D1704FCE25FEFC2E007E70BD /* NSDate+twTool.m */; };
+		D1704FF325FEFC2E007E70BD /* TWAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = D1704FD025FEFC2E007E70BD /* TWAssistant.m */; };
+		D1704FF425FEFC2E007E70BD /* NSDecimalNumber+twSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = D1704FD525FEFC2E007E70BD /* NSDecimalNumber+twSwizzling.m */; };
+		D1704FF525FEFC2E007E70BD /* NSDecimalNumber+twChain.m in Sources */ = {isa = PBXBuildFile; fileRef = D1704FD625FEFC2E007E70BD /* NSDecimalNumber+twChain.m */; };
+		D1704FF625FEFC2E007E70BD /* NSDictionary+twSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = D1704FD925FEFC2E007E70BD /* NSDictionary+twSwizzling.m */; };
+		D1704FF725FEFC2E007E70BD /* NSDictionary+twTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D1704FDB25FEFC2E007E70BD /* NSDictionary+twTool.m */; };
+		D1704FF825FEFC2E007E70BD /* NSObject+twSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = D1704FDD25FEFC2E007E70BD /* NSObject+twSwizzling.m */; };
+		D1704FF925FEFC2E007E70BD /* NSObject+twPerformSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = D1704FE025FEFC2E007E70BD /* NSObject+twPerformSelector.m */; };
+		D1704FFA25FEFC2E007E70BD /* NSObject+twAssiign.m in Sources */ = {isa = PBXBuildFile; fileRef = D1704FE125FEFC2E007E70BD /* NSObject+twAssiign.m */; };
+		D1704FFB25FEFC2E007E70BD /* NSObject+twSafeKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = D1704FE325FEFC2E007E70BD /* NSObject+twSafeKVO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +61,9 @@
 
 /* Begin PBXFileReference section */
 		14F1BFCB02B1D59342798FF9 /* Pods_TWFoundation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWFoundation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C8C6B9CFFDE8EDA0F678CD3 /* TWFoundation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TWFoundation.podspec; path = ../TWFoundation.podspec; sourceTree = "<group>"; };
+		2C8C6B9CFFDE8EDA0F678CD3 /* TWFoundation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TWFoundation.podspec; path = ../TWFoundation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		36F094106A575B0AF744BC77 /* Pods-TWFoundation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWFoundation_Example.debug.xcconfig"; path = "Target Support Files/Pods-TWFoundation_Example/Pods-TWFoundation_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		40355865BE2E88C411C4E541 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		40355865BE2E88C411C4E541 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		474889154EC4171411115F71 /* Pods-TWFoundation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWFoundation_Tests.release.xcconfig"; path = "Target Support Files/Pods-TWFoundation_Tests/Pods-TWFoundation_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4F37084FAA94FEBEB02B9744 /* Pods_TWFoundation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWFoundation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* TWFoundation_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWFoundation_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,8 +87,60 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82CAB2B6C63D5839D7604716 /* Pods-TWFoundation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWFoundation_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TWFoundation_Tests/Pods-TWFoundation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		839B1FEE8645E9C7EB3EAE09 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		839B1FEE8645E9C7EB3EAE09 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1704F2925FEF8C4007E70BD /* NSMutableArray+twChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+twChain.m"; sourceTree = "<group>"; };
+		D1704F2A25FEF8C4007E70BD /* NSMutableArray+twSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+twSwizzling.m"; sourceTree = "<group>"; };
+		D1704F2B25FEF8C4007E70BD /* NSArray+twJsonDic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+twJsonDic.h"; sourceTree = "<group>"; };
+		D1704F2C25FEF8C4007E70BD /* NSArray+twSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+twSwizzling.m"; sourceTree = "<group>"; };
+		D1704F2D25FEF8C4007E70BD /* NSMutableArray+twSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+twSwizzling.h"; sourceTree = "<group>"; };
+		D1704F2E25FEF8C4007E70BD /* NSMutableArray+twChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+twChain.h"; sourceTree = "<group>"; };
+		D1704F2F25FEF8C4007E70BD /* NSArray+twJsonDic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+twJsonDic.m"; sourceTree = "<group>"; };
+		D1704F3025FEF8C4007E70BD /* NSArray+twSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+twSwizzling.h"; sourceTree = "<group>"; };
+		D1704F3125FEF8C4007E70BD /* TWFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWFoundation.h; sourceTree = "<group>"; };
+		D1704FA925FEFC2E007E70BD /* NSString+twAtt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+twAtt.h"; sourceTree = "<group>"; };
+		D1704FAA25FEFC2E007E70BD /* NSString+twMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+twMD5.h"; sourceTree = "<group>"; };
+		D1704FAB25FEFC2E007E70BD /* NSString+twSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+twSwizzling.m"; sourceTree = "<group>"; };
+		D1704FAC25FEFC2E007E70BD /* NSString+twSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+twSize.m"; sourceTree = "<group>"; };
+		D1704FAD25FEFC2E007E70BD /* NSString+twIDCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+twIDCard.m"; sourceTree = "<group>"; };
+		D1704FAE25FEFC2E007E70BD /* NSString+twEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+twEmail.h"; sourceTree = "<group>"; };
+		D1704FAF25FEFC2E007E70BD /* NSString+twTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+twTool.h"; sourceTree = "<group>"; };
+		D1704FB025FEFC2E007E70BD /* NSString+twAtt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+twAtt.m"; sourceTree = "<group>"; };
+		D1704FB125FEFC2E007E70BD /* NSString+twMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+twMD5.m"; sourceTree = "<group>"; };
+		D1704FB225FEFC2E007E70BD /* NSString+twSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+twSize.h"; sourceTree = "<group>"; };
+		D1704FB325FEFC2E007E70BD /* NSString+twSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+twSwizzling.h"; sourceTree = "<group>"; };
+		D1704FB425FEFC2E007E70BD /* NSString+twTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+twTool.m"; sourceTree = "<group>"; };
+		D1704FB525FEFC2E007E70BD /* NSString+twEmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+twEmail.m"; sourceTree = "<group>"; };
+		D1704FB625FEFC2E007E70BD /* NSString+twIDCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+twIDCard.h"; sourceTree = "<group>"; };
+		D1704FB825FEFC2E007E70BD /* Block+twPrefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Block+twPrefix.h"; sourceTree = "<group>"; };
+		D1704FB925FEFC2E007E70BD /* Font+twPrefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Font+twPrefix.h"; sourceTree = "<group>"; };
+		D1704FBA25FEFC2E007E70BD /* Color+twPrefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Color+twPrefix.h"; sourceTree = "<group>"; };
+		D1704FBB25FEFC2E007E70BD /* Fun+twPrefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Fun+twPrefix.h"; sourceTree = "<group>"; };
+		D1704FBC25FEFC2E007E70BD /* Size+twPrefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Size+twPrefix.h"; sourceTree = "<group>"; };
+		D1704FC725FEFC2E007E70BD /* NSData+twDic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+twDic.h"; sourceTree = "<group>"; };
+		D1704FC825FEFC2E007E70BD /* NSData+twDic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+twDic.m"; sourceTree = "<group>"; };
+		D1704FCA25FEFC2E007E70BD /* NSFileManager+twTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+twTool.h"; sourceTree = "<group>"; };
+		D1704FCB25FEFC2E007E70BD /* NSFileManager+twTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+twTool.m"; sourceTree = "<group>"; };
+		D1704FCD25FEFC2E007E70BD /* NSDate+twTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+twTool.h"; sourceTree = "<group>"; };
+		D1704FCE25FEFC2E007E70BD /* NSDate+twTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+twTool.m"; sourceTree = "<group>"; };
+		D1704FD025FEFC2E007E70BD /* TWAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWAssistant.m; sourceTree = "<group>"; };
+		D1704FD125FEFC2E007E70BD /* TWAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWAssistant.h; sourceTree = "<group>"; };
+		D1704FD325FEFC2E007E70BD /* NSDecimalNumber+twSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDecimalNumber+twSwizzling.h"; sourceTree = "<group>"; };
+		D1704FD425FEFC2E007E70BD /* NSDecimalNumber+twChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDecimalNumber+twChain.h"; sourceTree = "<group>"; };
+		D1704FD525FEFC2E007E70BD /* NSDecimalNumber+twSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDecimalNumber+twSwizzling.m"; sourceTree = "<group>"; };
+		D1704FD625FEFC2E007E70BD /* NSDecimalNumber+twChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDecimalNumber+twChain.m"; sourceTree = "<group>"; };
+		D1704FD825FEFC2E007E70BD /* NSDictionary+twTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+twTool.h"; sourceTree = "<group>"; };
+		D1704FD925FEFC2E007E70BD /* NSDictionary+twSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+twSwizzling.m"; sourceTree = "<group>"; };
+		D1704FDA25FEFC2E007E70BD /* NSDictionary+twSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+twSwizzling.h"; sourceTree = "<group>"; };
+		D1704FDB25FEFC2E007E70BD /* NSDictionary+twTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+twTool.m"; sourceTree = "<group>"; };
+		D1704FDD25FEFC2E007E70BD /* NSObject+twSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+twSwizzling.m"; sourceTree = "<group>"; };
+		D1704FDE25FEFC2E007E70BD /* NSObject+twAssiign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+twAssiign.h"; sourceTree = "<group>"; };
+		D1704FDF25FEFC2E007E70BD /* NSObject+twSafeKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+twSafeKVO.h"; sourceTree = "<group>"; };
+		D1704FE025FEFC2E007E70BD /* NSObject+twPerformSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+twPerformSelector.m"; sourceTree = "<group>"; };
+		D1704FE125FEFC2E007E70BD /* NSObject+twAssiign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+twAssiign.m"; sourceTree = "<group>"; };
+		D1704FE225FEFC2E007E70BD /* NSObject+twSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+twSwizzling.h"; sourceTree = "<group>"; };
+		D1704FE325FEFC2E007E70BD /* NSObject+twSafeKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+twSafeKVO.m"; sourceTree = "<group>"; };
+		D1704FE425FEFC2E007E70BD /* NSObject+twPerformSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+twPerformSelector.h"; sourceTree = "<group>"; };
 		F9B58B92109FC6216808DFF3 /* Pods-TWFoundation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWFoundation_Example.release.xcconfig"; path = "Target Support Files/Pods-TWFoundation_Example/Pods-TWFoundation_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +173,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				D1704EE925FEF87D007E70BD /* Classes */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for TWFoundation */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -193,8 +269,147 @@
 				82CAB2B6C63D5839D7604716 /* Pods-TWFoundation_Tests.debug.xcconfig */,
 				474889154EC4171411115F71 /* Pods-TWFoundation_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D1704EE925FEF87D007E70BD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D1704F3125FEF8C4007E70BD /* TWFoundation.h */,
+				D1704F2825FEF8C4007E70BD /* NSArray */,
+				D1704FCF25FEFC2E007E70BD /* TWAssistant */,
+				D1704FC625FEFC2E007E70BD /* NSData */,
+				D1704FCC25FEFC2E007E70BD /* NSDate */,
+				D1704FD225FEFC2E007E70BD /* NSDecimalNumber */,
+				D1704FD725FEFC2E007E70BD /* NSDictionary */,
+				D1704FC925FEFC2E007E70BD /* NSFileManager */,
+				D1704FDC25FEFC2E007E70BD /* NSObject */,
+				D1704FA825FEFC2E007E70BD /* NSString */,
+				D1704FB725FEFC2E007E70BD /* Prefix */,
+			);
+			name = Classes;
+			path = ../TWFoundation/Classes;
+			sourceTree = "<group>";
+		};
+		D1704F2825FEF8C4007E70BD /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				D1704F2B25FEF8C4007E70BD /* NSArray+twJsonDic.h */,
+				D1704F2F25FEF8C4007E70BD /* NSArray+twJsonDic.m */,
+				D1704F2D25FEF8C4007E70BD /* NSMutableArray+twSwizzling.h */,
+				D1704F2A25FEF8C4007E70BD /* NSMutableArray+twSwizzling.m */,
+				D1704F2E25FEF8C4007E70BD /* NSMutableArray+twChain.h */,
+				D1704F2925FEF8C4007E70BD /* NSMutableArray+twChain.m */,
+				D1704F3025FEF8C4007E70BD /* NSArray+twSwizzling.h */,
+				D1704F2C25FEF8C4007E70BD /* NSArray+twSwizzling.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		D1704FA825FEFC2E007E70BD /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				D1704FA925FEFC2E007E70BD /* NSString+twAtt.h */,
+				D1704FB025FEFC2E007E70BD /* NSString+twAtt.m */,
+				D1704FAE25FEFC2E007E70BD /* NSString+twEmail.h */,
+				D1704FB525FEFC2E007E70BD /* NSString+twEmail.m */,
+				D1704FB625FEFC2E007E70BD /* NSString+twIDCard.h */,
+				D1704FAD25FEFC2E007E70BD /* NSString+twIDCard.m */,
+				D1704FAA25FEFC2E007E70BD /* NSString+twMD5.h */,
+				D1704FB125FEFC2E007E70BD /* NSString+twMD5.m */,
+				D1704FB225FEFC2E007E70BD /* NSString+twSize.h */,
+				D1704FAC25FEFC2E007E70BD /* NSString+twSize.m */,
+				D1704FB325FEFC2E007E70BD /* NSString+twSwizzling.h */,
+				D1704FAB25FEFC2E007E70BD /* NSString+twSwizzling.m */,
+				D1704FAF25FEFC2E007E70BD /* NSString+twTool.h */,
+				D1704FB425FEFC2E007E70BD /* NSString+twTool.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		D1704FB725FEFC2E007E70BD /* Prefix */ = {
+			isa = PBXGroup;
+			children = (
+				D1704FB825FEFC2E007E70BD /* Block+twPrefix.h */,
+				D1704FBA25FEFC2E007E70BD /* Color+twPrefix.h */,
+				D1704FB925FEFC2E007E70BD /* Font+twPrefix.h */,
+				D1704FBB25FEFC2E007E70BD /* Fun+twPrefix.h */,
+				D1704FBC25FEFC2E007E70BD /* Size+twPrefix.h */,
+			);
+			path = Prefix;
+			sourceTree = "<group>";
+		};
+		D1704FC625FEFC2E007E70BD /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+				D1704FC725FEFC2E007E70BD /* NSData+twDic.h */,
+				D1704FC825FEFC2E007E70BD /* NSData+twDic.m */,
+			);
+			path = NSData;
+			sourceTree = "<group>";
+		};
+		D1704FC925FEFC2E007E70BD /* NSFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				D1704FCA25FEFC2E007E70BD /* NSFileManager+twTool.h */,
+				D1704FCB25FEFC2E007E70BD /* NSFileManager+twTool.m */,
+			);
+			path = NSFileManager;
+			sourceTree = "<group>";
+		};
+		D1704FCC25FEFC2E007E70BD /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				D1704FCD25FEFC2E007E70BD /* NSDate+twTool.h */,
+				D1704FCE25FEFC2E007E70BD /* NSDate+twTool.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		D1704FCF25FEFC2E007E70BD /* TWAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				D1704FD125FEFC2E007E70BD /* TWAssistant.h */,
+				D1704FD025FEFC2E007E70BD /* TWAssistant.m */,
+			);
+			path = TWAssistant;
+			sourceTree = "<group>";
+		};
+		D1704FD225FEFC2E007E70BD /* NSDecimalNumber */ = {
+			isa = PBXGroup;
+			children = (
+				D1704FD425FEFC2E007E70BD /* NSDecimalNumber+twChain.h */,
+				D1704FD625FEFC2E007E70BD /* NSDecimalNumber+twChain.m */,
+				D1704FD325FEFC2E007E70BD /* NSDecimalNumber+twSwizzling.h */,
+				D1704FD525FEFC2E007E70BD /* NSDecimalNumber+twSwizzling.m */,
+			);
+			path = NSDecimalNumber;
+			sourceTree = "<group>";
+		};
+		D1704FD725FEFC2E007E70BD /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				D1704FDA25FEFC2E007E70BD /* NSDictionary+twSwizzling.h */,
+				D1704FD925FEFC2E007E70BD /* NSDictionary+twSwizzling.m */,
+				D1704FD825FEFC2E007E70BD /* NSDictionary+twTool.h */,
+				D1704FDB25FEFC2E007E70BD /* NSDictionary+twTool.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		D1704FDC25FEFC2E007E70BD /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				D1704FDE25FEFC2E007E70BD /* NSObject+twAssiign.h */,
+				D1704FE125FEFC2E007E70BD /* NSObject+twAssiign.m */,
+				D1704FE425FEFC2E007E70BD /* NSObject+twPerformSelector.h */,
+				D1704FE025FEFC2E007E70BD /* NSObject+twPerformSelector.m */,
+				D1704FE225FEFC2E007E70BD /* NSObject+twSwizzling.h */,
+				D1704FDD25FEFC2E007E70BD /* NSObject+twSwizzling.m */,
+				D1704FDF25FEFC2E007E70BD /* NSObject+twSafeKVO.h */,
+				D1704FE325FEFC2E007E70BD /* NSObject+twSafeKVO.m */,
+			);
+			path = NSObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +474,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -383,9 +599,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1704FFB25FEFC2E007E70BD /* NSObject+twSafeKVO.m in Sources */,
+				D1704FF025FEFC2E007E70BD /* NSData+twDic.m in Sources */,
+				D1704FE525FEFC2E007E70BD /* NSString+twSwizzling.m in Sources */,
+				D1704FFA25FEFC2E007E70BD /* NSObject+twAssiign.m in Sources */,
+				D1704FEA25FEFC2E007E70BD /* NSString+twTool.m in Sources */,
 				6003F59E195388D20070C39A /* TWAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* TWViewController.m in Sources */,
+				D1704FF625FEFC2E007E70BD /* NSDictionary+twSwizzling.m in Sources */,
+				D1704FF125FEFC2E007E70BD /* NSFileManager+twTool.m in Sources */,
+				D1704FF225FEFC2E007E70BD /* NSDate+twTool.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				D1704F4525FEF8C4007E70BD /* NSMutableArray+twChain.m in Sources */,
+				D1704FF425FEFC2E007E70BD /* NSDecimalNumber+twSwizzling.m in Sources */,
+				D1704F4725FEF8C4007E70BD /* NSArray+twSwizzling.m in Sources */,
+				D1704FF325FEFC2E007E70BD /* TWAssistant.m in Sources */,
+				D1704FF825FEFC2E007E70BD /* NSObject+twSwizzling.m in Sources */,
+				D1704FEB25FEFC2E007E70BD /* NSString+twEmail.m in Sources */,
+				D1704FE625FEFC2E007E70BD /* NSString+twSize.m in Sources */,
+				D1704F4825FEF8C4007E70BD /* NSArray+twJsonDic.m in Sources */,
+				D1704F4625FEF8C4007E70BD /* NSMutableArray+twSwizzling.m in Sources */,
+				D1704FE725FEFC2E007E70BD /* NSString+twIDCard.m in Sources */,
+				D1704FE825FEFC2E007E70BD /* NSString+twAtt.m in Sources */,
+				D1704FF725FEFC2E007E70BD /* NSDictionary+twTool.m in Sources */,
+				D1704FF925FEFC2E007E70BD /* NSObject+twPerformSelector.m in Sources */,
+				D1704FF525FEFC2E007E70BD /* NSDecimalNumber+twChain.m in Sources */,
+				D1704FE925FEFC2E007E70BD /* NSString+twMD5.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
